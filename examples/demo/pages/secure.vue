@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  middleware: ['auth'],
+  middleware: ['init-auth', 'auth'],
   computed: {
     state() {
       return JSON.stringify(this.$auth.$state, undefined, 2)

@@ -46,5 +46,8 @@ module.exports = {
         client_id: 'FAJNuxjMTicff6ciDKLiZ4t0D'
       }
     }
+  },
+  router: {
+    middleware: ['init-auth']
   }
 }

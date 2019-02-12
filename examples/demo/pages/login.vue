@@ -49,7 +49,7 @@
 import busyOverlay from '~/components/busy-overlay'
 
 export default {
-  middleware: ['init-auth', 'auth'],
+  middleware: ['auth'],
   components: { busyOverlay },
   data() {
     return {

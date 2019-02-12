@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  middleware: ['init-auth', 'auth'],
+  middleware: ['auth'],
   options: {
     auth: false
   }

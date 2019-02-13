@@ -23,7 +23,7 @@ export default class SessionStorageStore {
   }
 
   set (key, value, { isJson }) {
-    if (typeof sessionStorage === 'undefined' ) {
+    if (typeof sessionStorage === 'undefined') {
       return
     }
 

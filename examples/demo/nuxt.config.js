@@ -45,9 +45,9 @@ module.exports = {
       twitter: {
         client_id: 'FAJNuxjMTicff6ciDKLiZ4t0D'
       }
+    },
+    stores: {
+      session: 'SessionStorageStore'
     }
-  },
-  router: {
-    middleware: ['init-auth']
   }
 }
